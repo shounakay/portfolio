@@ -15,8 +15,11 @@ export default function HomePage() {
       <section className="flex w-full flex-wrap items-center justify-center gap-6 lg:gap-12">
         <div className="mt-8 px-4 lg:basis-1/2">
           <p className="text-left text-3xl font-semibold text-neutral-200">
-            Discover the World of Code with Shounak: Your Passionate{" "}
-            <span className=" text-lavender-400">FullStack Engineer</span>
+            Discover the World of Code with Shounak: A seasoned{" "}
+            <span className=" text-lavender-400">FullStack Engineer </span>
+            <span className="text-left text-3xl font-semibold text-neutral-200">
+              with four years of expertise.
+            </span>
           </p>
           <p className="mt-6 hyphens-auto text-sm text-neutral-500">
             With a commitment to turning visions into reality and a love for

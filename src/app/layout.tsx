@@ -13,7 +13,7 @@ export const firaCode = Fira_Code({
 export const metadata = {
   title: "Shounak Chavan - Full Stack Engineer",
   description: "Developer portfolio of Shounak Chavan",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/favicon.png" }],
 };
 
 export default function RootLayout({
