@@ -14,16 +14,16 @@ const ContactPage = () => {
           <span className="text-neutral-100">contact</span>
         </div>
         <p className="text-base text-neutral-400">
-          Ready to Ignite Ideas? Let’s Talk – Your Message Awaits!
+          Ready to Ignite Ideas? Let&apos;s Talk – Your Message Awaits!
         </p>
       </div>
       <div className="mt-12 flex items-center justify-between pb-10">
         <p className="grow basis-full text-neutral-400 lg:grow-0 lg:basis-1/2">
           I am currently available for immediate employment and actively seeking
           full-time full-stack roles. I am flexible with working from the
-          office. If you have any questions or opportunities you'd like to
-          discuss, please don't hesitate to reach out—I always keep my phone
-          handy.😄
+          office. If you have any questions or opportunities you&apos;d like to
+          discuss, please don&apos;t hesitate to reach out—I always keep my
+          phone handy.😄
         </p>
         <div className="flex grow basis-full flex-col items-baseline gap-2 border border-neutral-500 p-2 text-base text-neutral-400 lg:grow-0 lg:basis-1/3">
           <h3>Message me here</h3>

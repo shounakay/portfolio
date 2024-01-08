@@ -13,7 +13,11 @@ export const SkillCard = ({
       <div className="w-full border-[0.5px] border-neutral-400" />
       <div className="flex flex-wrap items-center gap-2">
         {skills.map((skill) => {
-          return <h2 className="px-1 text-sm text-neutral-400">{skill}</h2>;
+          return (
+            <h2 key={skill} className="px-1 text-sm text-neutral-400">
+              {skill}
+            </h2>
+          );
         })}
       </div>
     </div>

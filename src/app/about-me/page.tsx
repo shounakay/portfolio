@@ -60,9 +60,10 @@ const Aboutpage = () => {
           <span className="border-lavender-400 w-56 border" />
         </div>
         <div className="flex flex-wrap gap-5">
-          {skills.map((skill) => {
+          {skills.map((skill, i) => {
             return (
               <SkillCard
+                key={i}
                 heading={skill[0] as string}
                 skills={skill[1] as string[]}
               />
@@ -79,7 +80,7 @@ const Aboutpage = () => {
         <div className="flex items-center justify-between">
           <div className="flex basis-1/2 flex-wrap gap-4">
             {funFacts.map((funFact) => {
-              return <Funfact funFact={funFact} />;
+              return <Funfact key={funFact} funFact={funFact} />;
             })}
           </div>
           <div className="basis-1/3">

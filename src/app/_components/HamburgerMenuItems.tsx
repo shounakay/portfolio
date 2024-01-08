@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { Dispatch, SetStateAction } from "react";
+import type { Dispatch, SetStateAction } from "react";
 import { SocialLinks } from "./SocialLinks";
 
 export const HamburgerMenuItems = ({

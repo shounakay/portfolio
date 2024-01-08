@@ -65,9 +65,10 @@ export default function HomePage() {
             <Image src={randomShape} alt="random-shape" />
           </div>
           <div className="flex basis-1/2 flex-wrap gap-5">
-            {skills.map((skill) => {
+            {skills.map((skill, i) => {
               return (
                 <SkillCard
+                  key={i}
                   heading={skill[0] as string}
                   skills={skill[1] as string[]}
                 />
@@ -129,9 +130,9 @@ export default function HomePage() {
           <p className="grow basis-full lg:grow-0 lg:basis-1/2">
             I am currently available for immediate employment and actively
             seeking full-time full-stack roles. I am flexible with working from
-            the office. If you have any questions or opportunities you'd like to
-            discuss, please don't hesitate to reach out—I always keep my phone
-            handy. 😄
+            the office. If you have any questions or opportunities you&apos;d
+            like to discuss, please don&apos;t hesitate to reach out—I always
+            keep my phone handy. 😄
           </p>
           <div className="flex grow basis-full flex-col items-baseline gap-2 border border-neutral-500 p-2 text-base lg:grow-0 lg:basis-1/3">
             <h3>Message me here</h3>

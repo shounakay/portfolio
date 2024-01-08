@@ -1,19 +1,8 @@
 import "@/styles/globals.css";
 
-import { Fira_Code, Inter, Space_Mono } from "next/font/google";
+import { Fira_Code } from "next/font/google";
 import { Nav } from "./_components/Nav";
 import { Footer } from "./_components/Footer";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
-
-export const spaceMono = Space_Mono({
-  weight: ["400", "700"],
-  variable: "--font-spaceMono",
-  subsets: ["latin"],
-});
 
 export const firaCode = Fira_Code({
   weight: ["300", "400", "500", "600", "700"],

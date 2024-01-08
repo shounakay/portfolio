@@ -13,8 +13,8 @@ import { usePathname } from "next/navigation";
 import { HamburgerMenuItems } from "./HamburgerMenuItems";
 
 export const Nav = ({ children }: { children: React.ReactNode }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const pathname = usePathname();
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  const pathname: string = usePathname();
   return (
     <main
       className=" h-full 
