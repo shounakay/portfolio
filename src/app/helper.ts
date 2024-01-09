@@ -2,8 +2,8 @@ export const skills = [
   ["Languages", ["Typescript", "HTML", "CSS"]],
   ["Frameworks", ["NextJS", "NodeJS", "ReactJS", "NestJS", "TailwindCSS"]],
   ["Database Tools", ["PostgreSQL", "SQLite", "Supabase", "Redis"]],
-  ["API", ["REST", "GraphQL", "tRPC"]],
-  ["Other", ["Storybook", "React Query", "MobX", "Next-Auth"]],
+  ["API", ["REST", "GraphQL", "tRPC", "Prisma"]],
+  ["Other", ["Storybook", "React-Query", "MobX", "Next-Auth"]],
 ];
 
 export const funFacts = [
