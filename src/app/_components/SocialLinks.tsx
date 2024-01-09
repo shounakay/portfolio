@@ -14,13 +14,13 @@ export const SocialLinks = ({
 }) => {
   return (
     <section className={`flex ${alignment} items-center justify-center ${gap}`}>
-      <Link href="">
+      <Link target="_blank" href="https://github.com/shounakay">
         <Image src={github} alt="github" />
       </Link>
-      <Link href="">
+      <Link target="_blank" href="https://www.linkedin.com/in/shounak-chavan/">
         <Image src={linkedin} alt="linkedin" />
       </Link>
-      <Link href="">
+      <Link target="_blank" href="">
         <Image src={twitter} width={25} height={25} alt="twitter" />
       </Link>
     </section>

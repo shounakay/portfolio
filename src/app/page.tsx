@@ -8,6 +8,7 @@ import { skills } from "./helper";
 import { SkillCard } from "./_components/SkillCard";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -113,10 +114,12 @@ export default function HomePage() {
               valuable feedback. I take great pride in delivering high-quality
               work and contributing meaningfully to collaborative endeavors.
             </p>
-            <button className="border-lavender-400 flex w-fit items-center gap-1 border px-2 py-1 text-neutral-200">
-              <span> Read More </span>
-              <FaArrowRightLong />
-            </button>
+            <Link href="/about-me">
+              <button className="border-lavender-400 flex w-fit items-center gap-1 border px-2 py-1 text-neutral-200">
+                <span> Read More </span>
+                <FaArrowRightLong />
+              </button>
+            </Link>
           </div>
           <div className="grow basis-full lg:grow-0 lg:basis-2/5">
             <Image src={aboutMe} alt="aboutme-shape" />
