@@ -31,7 +31,7 @@ export default function HomePage() {
         <div className="flex flex-col">
           <Image src={dev} width={400} height={400} alt="dev" />
           <div className="flex items-center gap-2 border border-neutral-500 p-1">
-            <div className="bg-lavender-400 h-3 w-3" />
+            <div className="h-3 w-3 bg-lavender-400" />
             <p className="text-sm text-neutral-100">
               Currently working on a side project
             </p>
@@ -60,9 +60,9 @@ export default function HomePage() {
       </section>
       <section className="mt-12 flex flex-col gap-12 px-8 lg:px-20">
         <div className="flex items-center gap-2 text-xl lg:text-2xl">
-          <span className=" text-lavender-400 font-bold">#</span>
+          <span className=" font-bold text-lavender-400">#</span>
           <span className="font-bold text-neutral-200">skills</span>
-          <span className="border-lavender-400 w-56 border" />
+          <span className="w-56 border border-lavender-400" />
         </div>
         <div className="flex items-center justify-center lg:justify-between">
           <div className="hidden basis-2/5 lg:flex">
@@ -84,9 +84,9 @@ export default function HomePage() {
       {/* TODO: Projects */}
       <section className="mt-12 flex flex-col gap-12 px-8 lg:px-20">
         <div className="flex items-center gap-2 text-xl lg:text-2xl">
-          <span className=" text-lavender-400 font-bold">#</span>
+          <span className=" font-bold text-lavender-400">#</span>
           <span className="font-bold text-neutral-200">about-me</span>
-          <span className="border-lavender-400 w-56 border" />
+          <span className="w-56 border border-lavender-400" />
         </div>
         <div className="flex flex-wrap items-center justify-between">
           <div className="flex grow basis-full flex-col gap-5 text-sm text-neutral-400 lg:grow-0 lg:basis-1/2">
@@ -101,12 +101,6 @@ export default function HomePage() {
               and fostering collaborative discussions with peers allows me to
               cultivate an in-depth understanding of the latest industry trends.
             </p>
-            {/* <p>
-              Situated in Panji, Goa, I thrive in a remote work environment,
-              where I can meticulously plan and execute tasks to harness my full
-              potential. My commitment to excellence is reflected in my
-              continuous pursuit of knowledge and skill development.
-            </p> */}
             <p>
               Working collaboratively is a cornerstone of my professional
               philosophy. I find immense value in team dynamics, as it not only
@@ -115,7 +109,7 @@ export default function HomePage() {
               work and contributing meaningfully to collaborative endeavors.
             </p>
             <Link href="/about-me">
-              <button className="border-lavender-400 flex w-fit items-center gap-1 border px-2 py-1 text-neutral-200">
+              <button className="flex w-fit items-center gap-1 border border-lavender-400 px-2 py-1 text-neutral-200">
                 <span> Read More </span>
                 <FaArrowRightLong />
               </button>
@@ -128,9 +122,9 @@ export default function HomePage() {
       </section>
       <section className="mb-14 mt-12 flex flex-col gap-12 px-8 lg:px-20">
         <div className="flex items-center gap-2 text-xl lg:text-2xl">
-          <span className=" text-lavender-400 font-bold">#</span>
+          <span className=" font-bold text-lavender-400">#</span>
           <span className="font-bold text-neutral-200">contact-me</span>
-          <span className="border-lavender-400 w-56 border" />
+          <span className="w-56 border border-lavender-400" />
         </div>
         <div className="flex flex-wrap justify-between gap-12 text-sm text-neutral-400 lg:gap-0">
           <p className="grow basis-full lg:grow-0 lg:basis-1/2">

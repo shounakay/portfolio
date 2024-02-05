@@ -23,10 +23,13 @@ export const Nav = ({ children }: { children: React.ReactNode }) => {
       <div className="absolute left-10 hidden flex-col lg:flex">
         <div className="absolute h-36 border-[0.5px] border-neutral-400"></div>
         <div className=" flex -translate-x-3 translate-y-40 flex-col items-center gap-3">
-          <Link href="">
+          <Link href="https://www.github.com/shounakay">
             <Image src={github} height={25} width={25} alt="github" />
           </Link>
-          <Link href="">
+          <Link
+            href="https://www.linkedin.com/in/shounak-chavan"
+            target="blank"
+          >
             <Image src={linkedin} height={25} width={25} alt="linkedin" />
           </Link>
           <Link href="">
