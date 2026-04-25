@@ -83,14 +83,14 @@ export default function HomePage() {
         </div>
       </section>
       {/* TODO: Projects */}
-      <section className="mt-12 flex flex-col gap-12 px-8 lg:px-20">
+      <section className="mt-12 lg:mt-32 flex flex-col gap-5 px-8 lg:px-20">
         <div className="flex items-center gap-2 text-xl lg:text-2xl">
           <span className=" font-bold text-lavender-400">#</span>
           <span className="font-bold text-neutral-200">about-me</span>
           <span className="w-56 border border-lavender-400" />
         </div>
         <div className="flex flex-wrap items-center justify-between">
-          <div className="flex grow basis-full flex-col gap-5 text-sm text-neutral-400 lg:grow-0 lg:basis-1/2">
+          <div className="flex grow basis-full flex-col gap-3 text-sm text-neutral-400 lg:grow-0 lg:basis-1/2">
             <h3 className="">Hello, I am Shounak</h3>
             {/* <p>I am full stack engineer with 4 years of experience.</p> */}
             <p>
