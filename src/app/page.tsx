@@ -19,13 +19,14 @@ export default function HomePage() {
             Discover the World of Code with Shounak: A seasoned{" "}
             <span className=" text-lavender-400">FullStack Engineer </span>
             <span className="text-left text-3xl font-semibold text-neutral-200">
-              with four years of expertise.
+              with six years of expertise.
             </span>
           </p>
           <p className="mt-6 hyphens-auto text-sm text-neutral-500">
-            With a commitment to turning visions into reality and a love for
-            crafting elegant solutions, Shounak is ready to bring your ideas to
-            life.
+            Dedicated to translating complex visions into built environments,
+            Shounak leverages a disciplined approach to architectural design and
+            technical precision to deliver sophisticated, high-performance
+            solutions.
           </p>
         </div>
         <div className="flex flex-col">
@@ -33,7 +34,7 @@ export default function HomePage() {
           <div className="flex items-center gap-2 border border-neutral-500 p-1">
             <div className="h-3 w-3 bg-lavender-400" />
             <p className="text-sm text-neutral-100">
-              Currently working on a side project
+              Currently working on a AI Powered web app project
             </p>
           </div>
         </div>
@@ -93,7 +94,7 @@ export default function HomePage() {
             <h3 className="">Hello, I am Shounak</h3>
             {/* <p>I am full stack engineer with 4 years of experience.</p> */}
             <p>
-              I bring over four years of experience as a dedicated full-stack
+              I bring over six years of experience as a dedicated full-stack
               engineer, demonstrating a profound passion for my craft. My
               enthusiasm extends beyond routine tasks, as I am fervently
               committed to staying abreast of emerging technologies within the

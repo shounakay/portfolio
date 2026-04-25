@@ -1,17 +1,16 @@
 export const skills = [
   ["Languages", ["Typescript", "HTML", "CSS"]],
-  ["Frameworks", ["NextJS", "NodeJS", "ReactJS", "NestJS", "TailwindCSS"]],
-  ["Database Tools", ["PostgreSQL", "mySQL", "Supabase", "Redis"]],
+  ["Frameworks", ["NextJS", "NodeJS", "ReactJS", "Astro", "NestJS", "TailwindCSS"]],
+  ["Database Tools", ["PostgreSQL", "Supabase", "Redis"]],
+  ["Devops", ["AWS EC2", "AWS S3", "AWS Amplify", "Github Actions", "Docker", "Kubernetes"]],
   ["API", ["REST", "GraphQL", "tRPC", "Prisma"]],
-  ["Other", ["Storybook", "React-Query", "MobX", "Next-Auth"]],
+  ["Other", ["Storybook", "Vercel AI SDK", "Apache Kafka"]],
 ];
 
 export const funFacts = [
   "I play football",
-  "I like to visit pilgrimage sites",
   "I have lived in 3 metro cities throughtout my life.",
   "I am based in Goa",
   "My favourite movie is Swades",
   "I hit the gym regularly",
-  "I am currently based in Goa",
 ];

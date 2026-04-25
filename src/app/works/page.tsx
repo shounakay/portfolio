@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import codvo from "../../../public/codvo_logo.jpeg";
+import micro1 from "../../../public/micro1_logo.jpg";
+import sapient from "../../../public/publicis-sapient-logo.png"
 import infosys from "../../../public/infosys_logo.jpeg";
 import { MdCalendarMonth } from "react-icons/md";
 
@@ -18,11 +20,45 @@ const ExperiencePage = () => {
       </div>
       <section className="mt-12 flex w-full flex-col gap-12 pb-12">
         <div className="flex items-center gap-2 text-xl lg:text-2xl">
-          <span className=" text-lavender-400 font-bold">#</span>
+          <span className=" font-bold text-lavender-400">#</span>
           <span className="font-bold text-neutral-200">experience</span>
-          <span className="border-lavender-400 w-56 border" />
+          <span className="w-56 border border-lavender-400" />
         </div>
         <div className="flex w-full flex-col gap-3 lg:w-[70%]">
+        <div className="flex items-center gap-3 text-lg font-medium text-neutral-100">
+            <Image src={sapient} alt="codvo" width={20} height={20} />
+            <h3>Publicis Sapient</h3>
+          </div>
+          <div className="flex w-full items-center justify-between">
+            <div className="text-xs md:text-sm lg:text-base">
+              <h3 className="text-lavender-400 ">Sr Experience Engineer</h3>
+              <h3 className="text-sm text-neutral-400">Pune</h3>
+            </div>
+            <div className="flex basis-2/5 items-center gap-2">
+              <MdCalendarMonth style={{ color: "#ffff" }} size={15} />
+              <h3 className="text-xs text-neutral-400 md:text-sm lg:text-base">
+                March, 2024 - Present
+              </h3>
+            </div>
+          </div>
+          <div className="ml-2 h-24 w-0 border-[0.5px] border-neutral-400" />
+          <div className="flex items-center gap-3 text-lg font-medium text-neutral-100">
+            <Image src={micro1} alt="codvo" width={20} height={20} />
+            <h3>micro1</h3>
+          </div>
+          <div className="flex w-full items-center justify-between">
+            <div className="text-xs md:text-sm lg:text-base">
+              <h3 className="text-lavender-400 ">Software Engineer</h3>
+              <h3 className="text-sm text-neutral-400">Remote</h3>
+            </div>
+            <div className="flex basis-2/5 items-center gap-2">
+              <MdCalendarMonth style={{ color: "#ffff" }} size={15} />
+              <h3 className="text-xs text-neutral-400 md:text-sm lg:text-base">
+                November, 2023 - August-2024
+              </h3>
+            </div>
+          </div>
+          <div className="ml-2 h-24 w-0 border-[0.5px] border-neutral-400" />
           <div className="flex items-center gap-3 text-lg font-medium text-neutral-100">
             <Image src={codvo} alt="codvo" width={20} height={20} />
             <h3>codvo.ai</h3>

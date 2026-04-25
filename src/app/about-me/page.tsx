@@ -22,7 +22,7 @@ const Aboutpage = () => {
             <h3 className="">Hello, I am Shounak</h3>
             {/* <p>I am full stack engineer with 4 years of experience.</p> */}
             <p>
-              I bring over four years of experience as a dedicated full-stack
+              I bring over six years of experience as a dedicated full-stack
               engineer, demonstrating a profound passion for my craft. My
               enthusiasm extends beyond routine tasks, as I am fervently
               committed to staying abreast of emerging technologies within the

@@ -29,7 +29,7 @@ export const Footer = ({ children }: { children: React.ReactNode }) => {
         </div>
         <div className="mt-4 flex items-center justify-center gap-2 text-sm text-neutral-400">
           <MdCopyright />
-          <span>Copyright 2024.</span>
+          <span>Copyright 2026.</span>
           <span>Made by Shounak</span>
         </div>
       </footer>
